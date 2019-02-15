@@ -1,0 +1,24 @@
+{
+	"name": "labkids-telegram",
+	"version": "1.0.0",
+	"description": "Bot do Labkids",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "nodemon index.js"
+	},
+	"keywords": [
+		"bot",
+		"labkids",
+		"telegram"
+	],
+	"author": "Samuel Novaes",
+	"license": "ISC",
+	"dependencies": {
+		"johnny-five": "^1.0.0",
+		"telegraf": "^3.27.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.10"
+	}
+}
